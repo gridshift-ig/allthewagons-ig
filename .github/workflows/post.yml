@@ -1,0 +1,77 @@
+name: AllTheWagons auto-post
+
+# 2 batches/day. 13:00 and 22:00 UTC = ~9am and ~6pm US Eastern.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "posts in this batch"
+        default: "2"
+      no_photos:
+        description: "text-only cards (copyright kill switch)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write          # needed to commit the generated cards (they ARE the image host)
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install pillow
+
+      - name: Regression-test the wagon filter
+        # If this fails the account would start posting SUVs. Fail the run instead.
+        run: python -m tests.test_filter
+
+      - name: Generate the batch
+        id: gen
+        run: |
+          python generate.py \
+            --count "${{ github.event.inputs.count || 2 }}" \
+            ${{ github.event.inputs.no_photos == 'true' && '--no-photos' || '' }} \
+            | tee gen.log
+          RUN_DIR=$(grep -o '::set-run-dir::.*' gen.log | cut -d: -f5-)
+          echo "run_dir=$RUN_DIR" >> "$GITHUB_OUTPUT"
+          test -n "$RUN_DIR" || { echo "generate.py produced no run dir"; exit 1; }
+
+      - name: Commit the cards (their raw URL is the image host)
+        run: |
+          git config user.name  "allthewagons-bot"
+          git config user.email "bot@allthewagons.com"
+          git add posts posted.json
+          git commit -m "cards: ${{ steps.gen.outputs.run_dir }}" || exit 0
+          git push
+
+      - name: Wait for raw.githubusercontent to serve the new images
+        run: sleep 30
+
+      - name: Publish to Instagram + Facebook
+        id: pub
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main
+        run: python publish_meta.py --dir "${{ steps.gen.outputs.run_dir }}" | tee pub.log
+
+      - name: Prove something actually published
+        # A green run that did nothing is the exact failure that burned us on
+        # Gridshift: the publish step went green in 0 seconds having printed
+        # nothing, because the script had no entrypoint. Never trust the tick.
+        run: |
+          grep -q "published ig_media_id=" pub.log || {
+            echo "::error::publish step printed no ig_media_id - nothing was posted"
+            exit 1
+          }
+          echo "verified: a real media id was returned"

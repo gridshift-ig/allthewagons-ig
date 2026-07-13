@@ -1,0 +1,41 @@
+name: Refresh Meta token
+
+# Belt and braces. If META_ACCESS_TOKEN is a Business system-user token it does
+# not expire and this job is a no-op safety net. If it is an ordinary long-lived
+# token it dies at ~60 days SILENTLY - which is exactly how Gridshift broke.
+# Needs a fine-grained GH_PAT scoped to this repo with Secrets: read and write.
+on:
+  schedule:
+    - cron: "0 4 * * 1"      # Mondays 04:00 UTC
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check the token still works
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+        run: python publish_meta.py --whoami
+
+      - name: Exchange for a fresh long-lived token
+        if: ${{ secrets.GH_PAT != '' && secrets.META_APP_ID != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          NEW=$(curl -sf -G "https://graph.facebook.com/v21.0/oauth/access_token" \
+            --data-urlencode "grant_type=fb_exchange_token" \
+            --data-urlencode "client_id=${{ secrets.META_APP_ID }}" \
+            --data-urlencode "client_secret=${{ secrets.META_APP_SECRET }}" \
+            --data-urlencode "fb_exchange_token=${{ secrets.META_ACCESS_TOKEN }}" \
+            | python -c "import sys,json;print(json.load(sys.stdin)['access_token'])")
+          test -n "$NEW" || { echo "no token returned"; exit 1; }
+          gh secret set META_ACCESS_TOKEN --body "$NEW"
+          echo "META_ACCESS_TOKEN rotated"
