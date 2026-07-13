@@ -1,0 +1,11 @@
+{
+  "_comment": "Copy to config.json and fill in. Instagram-login API flow (graph.instagram.com). config.json is gitignored — never commit it.",
+  "ig_user_id": "YOUR_INSTAGRAM_USER_ID",
+  "access_token": "YOUR_LONG_LIVED_IGAA_TOKEN",
+  "image_base_url": "https://your-public-image-host.example.com/gridshift",
+  "brand": {
+    "name": "Gridshift",
+    "accent": [227, 30, 36],
+    "accent_ev": [0, 200, 140]
+  }
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+config.json
+posts/*/_src/
+
+# internal planning docs - keep out of the public repo
+*.docx
+FOLLOW-AND-PRESS-LIST.md
+samples/

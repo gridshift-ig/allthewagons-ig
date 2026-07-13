@@ -1,0 +1,2626 @@
+[
+ {
+  "make": "Acura",
+  "model": "TSX Sport Wagon",
+  "years": "2011-2014",
+  "hp": 201,
+  "tq": 172,
+  "weight_lb": 3599,
+  "length_in": 189.2,
+  "height_in": 57.3,
+  "msrp": "$30,960",
+  "s060": "7.5",
+  "approx": [
+   "w",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2011_Acura_TSX_wagon_--_2011_DC.jpg/500px-2011_Acura_TSX_wagon_--_2011_DC.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "100 CS Wagon (C4)",
+  "years": "1992-1994",
+  "hp": 172,
+  "tq": 184,
+  "weight_lb": 3417,
+  "length_in": 192.7,
+  "height_in": 56.9,
+  "msrp": "$36,000",
+  "s060": "11.4",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Audi_100_C4_Avant_1X7A6697.jpg/500px-Audi_100_C4_Avant_1X7A6697.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "RS2 Avant",
+  "years": "1994-1995",
+  "hp": 311,
+  "tq": 302,
+  "weight_lb": 3560,
+  "length_in": 177.6,
+  "height_in": 55.4,
+  "msrp": "n/a US (~DM 98,900)",
+  "s060": "4.8 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Audi_RS2_Avant_MYLE_Festival_2025_DSC_9761.jpg/500px-Audi_RS2_Avant_MYLE_Festival_2025_DSC_9761.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "A6 Avant (C4)",
+  "years": "1995-1998",
+  "hp": 190,
+  "tq": 184,
+  "weight_lb": 3417,
+  "length_in": 192.7,
+  "height_in": 57.0,
+  "msrp": "$33,000",
+  "s060": "10.5",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Audi_A6_C4_Avant.jpg/500px-Audi_A6_C4_Avant.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "A4 Avant (B5) 2.8",
+  "years": "1998-2001",
+  "hp": 190,
+  "tq": 207,
+  "weight_lb": 3428,
+  "length_in": 176.7,
+  "height_in": 55.8,
+  "msrp": "$30,965",
+  "s060": "7.9",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/1998-1999_Audi_A4_%288D%29_1.8T_quattro_Avant_02.jpg/500px-1998-1999_Audi_A4_%288D%29_1.8T_quattro_Avant_02.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "A6 Avant (C5) 2.8",
+  "years": "1999-2004",
+  "hp": 190,
+  "tq": 207,
+  "weight_lb": 3560,
+  "length_in": 192.0,
+  "height_in": 57.9,
+  "msrp": "$36,000",
+  "s060": "8.8",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Audi_A6_Avant_%28C5%29_Washington_DC_Metro_Area%2C_USA_%281%29.jpg/500px-Audi_A6_Avant_%28C5%29_Washington_DC_Metro_Area%2C_USA_%281%29.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "allroad quattro (C5) 2.7T",
+  "years": "2001-2005",
+  "hp": 250,
+  "tq": 258,
+  "weight_lb": 4167,
+  "length_in": 189.4,
+  "height_in": 58.1,
+  "msrp": "$41,900",
+  "s060": "6.8 (6MT)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Audi_Allroad_Quattro.JPG/500px-Audi_Allroad_Quattro.JPG"
+ },
+ {
+  "make": "Audi",
+  "model": "S6 Avant (C5) 4.2",
+  "years": "2002-2003",
+  "hp": 340,
+  "tq": 310,
+  "weight_lb": 4024,
+  "length_in": 192.0,
+  "height_in": 57.4,
+  "msrp": "$58,700",
+  "s060": "6.8",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Silver_Audi_S6_Avant_C5_fr.jpg/500px-Silver_Audi_S6_Avant_C5_fr.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "A4 Avant (B6) 3.0",
+  "years": "2002-2005",
+  "hp": 220,
+  "tq": 221,
+  "weight_lb": 3627,
+  "length_in": 179.0,
+  "height_in": 56.2,
+  "msrp": "$34,140",
+  "s060": "7.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Audi_A4_B6_Avant_black.JPG/500px-Audi_A4_B6_Avant_black.JPG"
+ },
+ {
+  "make": "Audi",
+  "model": "RS6 Avant (C5)",
+  "years": "2003-2004",
+  "hp": 444,
+  "tq": 413,
+  "weight_lb": 4112,
+  "length_in": 191.3,
+  "height_in": 57.0,
+  "msrp": "n/a US",
+  "s060": "4.7 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Audi_RS6_C5_Avant_Plus.jpg/500px-Audi_RS6_C5_Avant_Plus.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "S4 Avant (B6) 4.2",
+  "years": "2004-2005",
+  "hp": 340,
+  "tq": 302,
+  "weight_lb": 3627,
+  "length_in": 179.0,
+  "height_in": 56.2,
+  "msrp": "$48,040",
+  "s060": "5.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Audi_S4_B6_Avant.PNG/500px-Audi_S4_B6_Avant.PNG"
+ },
+ {
+  "make": "Audi",
+  "model": "A4 Avant (B7) 2.0T",
+  "years": "2005-2008",
+  "hp": 200,
+  "tq": 207,
+  "weight_lb": 3583,
+  "length_in": 180.6,
+  "height_in": 56.2,
+  "msrp": "$30,000",
+  "s060": "7.1",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Audi_A4_Avant_B7.jpg/500px-Audi_A4_Avant_B7.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "S4 Avant (B7) 4.2",
+  "years": "2006-2008",
+  "hp": 340,
+  "tq": 302,
+  "weight_lb": 3935,
+  "length_in": 180.6,
+  "height_in": 56.2,
+  "msrp": "$50,000",
+  "s060": "5.4",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Audi_S4_Avant_B7_front.jpg/500px-Audi_S4_Avant_B7_front.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "RS4 Avant (B7)",
+  "years": "2006-2008",
+  "hp": 414,
+  "tq": 317,
+  "weight_lb": 3693,
+  "length_in": 180.6,
+  "height_in": 56.1,
+  "msrp": "n/a US",
+  "s060": "4.7 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2007_Audi_RS4_Avant_Black.jpg/500px-2007_Audi_RS4_Avant_Black.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "A6 Avant (C6) 3.2",
+  "years": "2006-2011",
+  "hp": 255,
+  "tq": 243,
+  "weight_lb": 4001,
+  "length_in": 194.1,
+  "height_in": 58.0,
+  "msrp": "$44,000",
+  "s060": "7.2",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Audi_A6_Avant_2.4_C6_Night_Blue_Pearl_%283%29.jpg/500px-Audi_A6_Avant_2.4_C6_Night_Blue_Pearl_%283%29.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "RS6 Avant (C6) V10",
+  "years": "2008-2010",
+  "hp": 572,
+  "tq": 479,
+  "weight_lb": 4630,
+  "length_in": 193.5,
+  "height_in": 57.8,
+  "msrp": "n/a US",
+  "s060": "4.5 (0-62)",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Audi_RS6_Avant_%28C6%29_rear.JPG/500px-Audi_RS6_Avant_%28C6%29_rear.JPG"
+ },
+ {
+  "make": "Audi",
+  "model": "A4 Avant (B8) 2.0T",
+  "years": "2009-2012",
+  "hp": 211,
+  "tq": 258,
+  "weight_lb": 3792,
+  "length_in": 185.2,
+  "height_in": 56.2,
+  "msrp": "$34,000",
+  "s060": "6.2",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/AUDI_A4_AVANT_B8_China.jpg/500px-AUDI_A4_AVANT_B8_China.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "A4 allroad (B8)",
+  "years": "2013-2016",
+  "hp": 211,
+  "tq": 258,
+  "weight_lb": 3891,
+  "length_in": 185.9,
+  "height_in": 58.0,
+  "msrp": "$40,495",
+  "s060": "7.1",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Audi_A4_Allroad_%28B8%29_Washington_DC_Metro_Area%2C_USA.jpg/500px-Audi_A4_Allroad_%28B8%29_Washington_DC_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "A4 allroad (B9)",
+  "years": "2017-2023",
+  "hp": 252,
+  "tq": 273,
+  "weight_lb": 3825,
+  "length_in": 187.0,
+  "height_in": 58.8,
+  "msrp": "$44,000",
+  "s060": "5.6 (tested)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Audi_A4_Allroad_Quattro_B9_FL_1X7A6218.jpg/500px-Audi_A4_Allroad_Quattro_B9_FL_1X7A6218.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "RS4 Avant (B9)",
+  "years": "2018-2024",
+  "hp": 444,
+  "tq": 442,
+  "weight_lb": 3968,
+  "length_in": 187.4,
+  "height_in": 56.8,
+  "msrp": "n/a US",
+  "s060": "4.1 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Audi_RS4_Avant_B9_%28FL%29_1X7A0349.jpg/500px-Audi_RS4_Avant_B9_%28FL%29_1X7A0349.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "A6 allroad (C8)",
+  "years": "2020-present",
+  "hp": 335,
+  "tq": 369,
+  "weight_lb": 4497,
+  "length_in": 194.9,
+  "height_in": 58.3,
+  "msrp": "$65,900",
+  "s060": "5.2 (C/D)",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Audi_A6_Allroad_Quattro_C8_1X7A0302.jpg/500px-Audi_A6_Allroad_Quattro_C8_1X7A0302.jpg"
+ },
+ {
+  "make": "Audi",
+  "model": "RS6 Avant (C8)",
+  "years": "2021-present",
+  "hp": 591,
+  "tq": 590,
+  "weight_lb": 4960,
+  "length_in": 196.7,
+  "height_in": 58.6,
+  "msrp": "$109,000",
+  "s060": "3.3 (tested)",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Audi_RS6_Avant_C8_1X7A0305.jpg/500px-Audi_RS6_Avant_C8_1X7A0305.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "525i Touring (E34)",
+  "years": "1992-1995",
+  "hp": 189,
+  "tq": 184,
+  "weight_lb": 3627,
+  "length_in": 185.8,
+  "height_in": 55.8,
+  "msrp": "$39,000",
+  "s060": "8.7",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/BMW_E34_Touring_Lazurblau_1993_4.jpg/500px-BMW_E34_Touring_Lazurblau_1993_4.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "528i Touring (E39)",
+  "years": "1999-2003",
+  "hp": 193,
+  "tq": 207,
+  "weight_lb": 3593,
+  "length_in": 188.0,
+  "height_in": 56.5,
+  "msrp": "$39,470",
+  "s060": "7.7",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/BMW_525i_Touring_%28E39%29_Washington_DC_Metro_Area%2C_USA.jpg/500px-BMW_525i_Touring_%28E39%29_Washington_DC_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "325xi Touring (E46)",
+  "years": "2000-2005",
+  "hp": 184,
+  "tq": 175,
+  "weight_lb": 3638,
+  "length_in": 176.3,
+  "height_in": 56.1,
+  "msrp": "$32,000",
+  "s060": "7.6 (0-62)",
+  "approx": [
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/BMW_325i_Touring_%28E46%29_Washington_DC_Metro_Area%2C_USA.jpg/500px-BMW_325i_Touring_%28E46%29_Washington_DC_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "530xi Touring (E61)",
+  "years": "2006-2010",
+  "hp": 255,
+  "tq": 220,
+  "weight_lb": 3946,
+  "length_in": 191.1,
+  "height_in": 58.0,
+  "msrp": "$50,000",
+  "s060": "7.2 (0-100 km/h)",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BMW_530d_Touring_E61_%285477298499%29.jpg/500px-BMW_530d_Touring_E61_%285477298499%29.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "M5 Touring (E61) V10",
+  "years": "2007-2010",
+  "hp": 500,
+  "tq": 383,
+  "weight_lb": 4398,
+  "length_in": 191.5,
+  "height_in": 57.8,
+  "msrp": "n/a US",
+  "s060": "4.8 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/BMW_M5_Touring_E61_%287167512276%29.jpg/500px-BMW_M5_Touring_E61_%287167512276%29.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "328i Touring (E91)",
+  "years": "2006-2012",
+  "hp": 230,
+  "tq": 200,
+  "weight_lb": 3571,
+  "length_in": 178.2,
+  "height_in": 55.9,
+  "msrp": "$35,600",
+  "s060": "6.7",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/BMW_E91_LCI_330xi_Touring_Arctic_Metallic_%282%29.jpg/500px-BMW_E91_LCI_330xi_Touring_Arctic_Metallic_%282%29.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "328i xDrive Sports Wagon (F31)",
+  "years": "2013-2019",
+  "hp": 241,
+  "tq": 258,
+  "weight_lb": 3660,
+  "length_in": 182.5,
+  "height_in": 56.8,
+  "msrp": "$42,950",
+  "s060": "6.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/BMW_330i_Touring_%28F31%29_Washington_DC_Metro_Area%2C_USA.jpg/500px-BMW_330i_Touring_%28F31%29_Washington_DC_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "330i Touring (G21)",
+  "years": "2019-present",
+  "hp": 255,
+  "tq": 295,
+  "weight_lb": 3860,
+  "length_in": 185.7,
+  "height_in": 56.5,
+  "msrp": "n/a US",
+  "s060": "5.9 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/BMW_G21_320d_Touring_Alpine_White_%283%29.jpg/500px-BMW_G21_320d_Touring_Alpine_White_%283%29.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "M3 Competition Touring (G81)",
+  "years": "2023-present",
+  "hp": 503,
+  "tq": 479,
+  "weight_lb": 4145,
+  "length_in": 189.1,
+  "height_in": 56.9,
+  "msrp": "n/a US",
+  "s060": "3.7 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BMW_M3_%28G81%29_Motorworld_Munich_1X7A0056.jpg/500px-BMW_M3_%28G81%29_Motorworld_Munich_1X7A0056.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "M3 CS Touring (G81)",
+  "years": "2025",
+  "hp": 550,
+  "tq": 479,
+  "weight_lb": 4079,
+  "length_in": 188.8,
+  "height_in": 57.0,
+  "msrp": "n/a US",
+  "s060": "3.5 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "images/bmw-m3-cs-touring.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "i5 M60 xDrive Touring (G61, EV)",
+  "years": "2024-present",
+  "hp": 593,
+  "tq": 605,
+  "weight_lb": 5247,
+  "length_in": 199.2,
+  "height_in": 59.8,
+  "msrp": "n/a US",
+  "s060": "3.9 (0-62)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/BMW_i5_eDrive40_Touring_%28G61%29_rear.jpg/500px-BMW_i5_eDrive40_Touring_%28G61%29_rear.jpg"
+ },
+ {
+  "make": "BMW",
+  "model": "M5 Touring (G99)",
+  "years": "2025-present",
+  "hp": 717,
+  "tq": 738,
+  "weight_lb": 5530,
+  "length_in": 200.3,
+  "height_in": 59.4,
+  "msrp": "$121,500",
+  "s060": "3.5",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/BMW_M5_Touring_%28G99%29_Washington_DC_Metro_Area%2C_USA.jpg/500px-BMW_M5_Touring_%28G99%29_Washington_DC_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "300TE / E320 Wagon (S124)",
+  "years": "1990-1995",
+  "hp": 177,
+  "tq": 188,
+  "weight_lb": 3705,
+  "length_in": 188.2,
+  "height_in": 58.7,
+  "msrp": "$52,000",
+  "s060": "9.0",
+  "approx": [
+   "hp",
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mercedes-Benz_W124_Estate_%284395676246%29.jpg/500px-Mercedes-Benz_W124_Estate_%284395676246%29.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "E320 Wagon (S210)",
+  "years": "1998-2003",
+  "hp": 221,
+  "tq": 232,
+  "weight_lb": 3757,
+  "length_in": 190.4,
+  "height_in": 59.3,
+  "msrp": "$47,000",
+  "s060": "7.9",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Mercedes-Benz_E320_Estate_%28S210%29_Washington_DC_Metro_Area%2C_USA.jpg/500px-Mercedes-Benz_E320_Estate_%28S210%29_Washington_DC_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "E-Class Wagon (S211) E500",
+  "years": "2004-2009",
+  "hp": 302,
+  "tq": 339,
+  "weight_lb": 4230,
+  "length_in": 190.3,
+  "height_in": 59.3,
+  "msrp": "$59,000",
+  "s060": "5.8",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Mercedes-Benz_E320_Avantgarde_Estate_%282004%29_%2849182765398%29.jpg/500px-Mercedes-Benz_E320_Avantgarde_Estate_%282004%29_%2849182765398%29.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "E55 AMG Wagon (S211)",
+  "years": "2005-2006",
+  "hp": 469,
+  "tq": 516,
+  "weight_lb": 4270,
+  "length_in": 190.3,
+  "height_in": 58.4,
+  "msrp": "$83,000",
+  "s060": "4.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Mercedes-Benz_E_55_AMG_T-Modell_%28S_211%29_%E2%80%93_Heckansicht%2C_7._M%C3%A4rz_2011%2C_D%C3%BCsseldorf.jpg/500px-Mercedes-Benz_E_55_AMG_T-Modell_%28S_211%29_%E2%80%93_Heckansicht%2C_7._M%C3%A4rz_2011%2C_D%C3%BCsseldorf.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "E350 Wagon (S212)",
+  "years": "2011-2016",
+  "hp": 268,
+  "tq": 258,
+  "weight_lb": 4255,
+  "length_in": 193.1,
+  "height_in": 59.1,
+  "msrp": "$56,200",
+  "s060": "7.0",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Mercedes_E_350_CDI_BlueEFFICIENCY_T-Modell_Avantgarde_%28S212%29_rear_20100413.jpg/500px-Mercedes_E_350_CDI_BlueEFFICIENCY_T-Modell_Avantgarde_%28S212%29_rear_20100413.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "E63 AMG S Wagon (S212)",
+  "years": "2012-2016",
+  "hp": 577,
+  "tq": 590,
+  "weight_lb": 4733,
+  "length_in": 192.7,
+  "height_in": 57.8,
+  "msrp": "$103,000",
+  "s060": "3.6",
+  "approx": [
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Mercedes-AMG_E63_S_Estate_%28S212%29_Washington_DC_Metro_Area%2C_USA.jpg/500px-Mercedes-AMG_E63_S_Estate_%28S212%29_Washington_DC_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "E400/E450 Wagon (S213)",
+  "years": "2017-2023",
+  "hp": 329,
+  "tq": 354,
+  "weight_lb": 4400,
+  "length_in": 194.3,
+  "height_in": 57.8,
+  "msrp": "$63,050",
+  "s060": "5.2",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mercedes-Benz_E450_Estate_%28S213%29_Miami_Metro_Area%2C_USA.jpg/500px-Mercedes-Benz_E450_Estate_%28S213%29_Miami_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "AMG E63 S Wagon (S213)",
+  "years": "2018-2021",
+  "hp": 603,
+  "tq": 627,
+  "weight_lb": 4697,
+  "length_in": 194.6,
+  "height_in": 57.4,
+  "msrp": "$107,945",
+  "s060": "3.4",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Mercedes-AMG_E63_S_Estate_%28S213%29_Greater_Toronto_Area%2C_Canada.jpg/500px-Mercedes-AMG_E63_S_Estate_%28S213%29_Greater_Toronto_Area%2C_Canada.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "E450 All-Terrain (S214)",
+  "years": "2024-present",
+  "hp": 375,
+  "tq": 369,
+  "weight_lb": 4630,
+  "length_in": 195.2,
+  "height_in": 58.6,
+  "msrp": "$74,700",
+  "s060": "4.6",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mercedes-Benz_E_300_e_T-Modell_%28S214%2C_2025%29_%2854864154578%29.jpg/500px-Mercedes-Benz_E_300_e_T-Modell_%28S214%2C_2025%29_%2854864154578%29.jpg"
+ },
+ {
+  "make": "Mercedes-Benz",
+  "model": "AMG E53 Hybrid Wagon (S214)",
+  "years": "2026-present",
+  "hp": 577,
+  "tq": 553,
+  "weight_lb": 5300,
+  "length_in": 195.4,
+  "height_in": 58.4,
+  "msrp": "$94,500",
+  "s060": "3.8",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mercedes-Benz_E_300_e_T-Modell_%28S214%2C_2025%29_%2854864154578%29.jpg/500px-Mercedes-Benz_E_300_e_T-Modell_%28S214%2C_2025%29_%2854864154578%29.jpg"
+ },
+ {
+  "make": "Buick",
+  "model": "Estate Wagon (B-body)",
+  "years": "1990",
+  "hp": 140,
+  "tq": 255,
+  "weight_lb": 4300,
+  "length_in": 220.5,
+  "height_in": 59.3,
+  "msrp": "$17,940",
+  "s060": "13.0",
+  "approx": [
+   "hp",
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Buick_Estate_Wagon_--_06-14-2012_rear.JPG/500px-Buick_Estate_Wagon_--_06-14-2012_rear.JPG"
+ },
+ {
+  "make": "Buick",
+  "model": "Century Estate Wagon",
+  "years": "1990-1996",
+  "hp": 160,
+  "tq": 185,
+  "weight_lb": 3080,
+  "length_in": 190.9,
+  "height_in": 54.5,
+  "msrp": "$16,000",
+  "s060": "10.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/82-88_Buick_Century_Estate_Wagon.jpg/500px-82-88_Buick_Century_Estate_Wagon.jpg"
+ },
+ {
+  "make": "Buick",
+  "model": "Roadmaster Estate Wagon",
+  "years": "1991-1996",
+  "hp": 260,
+  "tq": 330,
+  "weight_lb": 4563,
+  "length_in": 217.3,
+  "height_in": 60.3,
+  "msrp": "$27,000",
+  "s060": "7.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1994_Buick_Roadmaster_Estate_Wagon_2.2.18.jpg/500px-1994_Buick_Roadmaster_Estate_Wagon_2.2.18.jpg"
+ },
+ {
+  "make": "Buick",
+  "model": "Regal TourX",
+  "years": "2018-2020",
+  "hp": 250,
+  "tq": 295,
+  "weight_lb": 3708,
+  "length_in": 196.3,
+  "height_in": 58.4,
+  "msrp": "$29,995",
+  "s060": "6.2",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/2018_Buick_Regal_TourX_Preferred.jpg/500px-2018_Buick_Regal_TourX_Preferred.jpg"
+ },
+ {
+  "make": "Cadillac",
+  "model": "CTS Sport Wagon",
+  "years": "2010-2014",
+  "hp": 304,
+  "tq": 273,
+  "weight_lb": 4026,
+  "length_in": 191.3,
+  "height_in": 59.1,
+  "msrp": "$39,830",
+  "s060": "7.2 (tested)",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2011_Cadillac_CTS_Sport_Wagon_%285490287515%29.jpg/500px-2011_Cadillac_CTS_Sport_Wagon_%285490287515%29.jpg"
+ },
+ {
+  "make": "Cadillac",
+  "model": "CTS-V Sport Wagon",
+  "years": "2011-2014",
+  "hp": 556,
+  "tq": 551,
+  "weight_lb": 4396,
+  "length_in": 191.3,
+  "height_in": 58.5,
+  "msrp": "$63,215",
+  "s060": "4.7 (Edmunds, auto)",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2011_Cadillac_CTS_Sport_Wagon_%285488228030%29.jpg/500px-2011_Cadillac_CTS_Sport_Wagon_%285488228030%29.jpg"
+ },
+ {
+  "make": "Chevrolet",
+  "model": "Celebrity Wagon",
+  "years": "1990",
+  "hp": 135,
+  "tq": 180,
+  "weight_lb": 2985,
+  "length_in": 190.8,
+  "height_in": 54.3,
+  "msrp": "$13,150",
+  "s060": "10.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/1990_Chevrolet_Celebrity_3.1_wagon_front_--_04-20-2010.jpg/500px-1990_Chevrolet_Celebrity_3.1_wagon_front_--_04-20-2010.jpg"
+ },
+ {
+  "make": "Chevrolet",
+  "model": "Cavalier Wagon",
+  "years": "1990-1994",
+  "hp": 140,
+  "tq": 185,
+  "weight_lb": 2750,
+  "length_in": 182.3,
+  "height_in": 54.0,
+  "msrp": "$11,500",
+  "s060": "9.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/1993_Chevrolet_Cavalier_VL_wagon_in_Bright_Aqua_Metallic%2C_rear_right%2C_2-7-2021.jpg/500px-1993_Chevrolet_Cavalier_VL_wagon_in_Bright_Aqua_Metallic%2C_rear_right%2C_2-7-2021.jpg"
+ },
+ {
+  "make": "Chevrolet",
+  "model": "Caprice Estate Wagon",
+  "years": "1990-1996",
+  "hp": 260,
+  "tq": 330,
+  "weight_lb": 4473,
+  "length_in": 217.3,
+  "height_in": 60.9,
+  "msrp": "$22,000",
+  "s060": "7.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/1995_Chevrolet_Caprice_Classic_wagon%2C_rear_right%2C_06-15-2025.jpg/500px-1995_Chevrolet_Caprice_Classic_wagon%2C_rear_right%2C_06-15-2025.jpg"
+ },
+ {
+  "make": "Chevrolet",
+  "model": "HHR",
+  "years": "2006-2011",
+  "hp": 172,
+  "tq": 167,
+  "weight_lb": 3200,
+  "length_in": 176.2,
+  "height_in": 62.5,
+  "msrp": "$15,990",
+  "s060": "9.4 (tested)",
+  "approx": [
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2010_Chevrolet_HHR_LS%2C_front_left%2C_09-09-2023.jpg/500px-2010_Chevrolet_HHR_LS%2C_front_left%2C_09-09-2023.jpg"
+ },
+ {
+  "make": "Dodge",
+  "model": "Magnum R/T",
+  "years": "2005-2008",
+  "hp": 340,
+  "tq": 390,
+  "weight_lb": 4260,
+  "length_in": 197.7,
+  "height_in": 58.4,
+  "msrp": "$29,995",
+  "s060": "6.3 (MotorWeek)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/05_Dodge_Magnum_RT_%289470509800%29.jpg/500px-05_Dodge_Magnum_RT_%289470509800%29.jpg"
+ },
+ {
+  "make": "Dodge",
+  "model": "Magnum SRT8",
+  "years": "2006-2008",
+  "hp": 425,
+  "tq": 420,
+  "weight_lb": 4480,
+  "length_in": 197.7,
+  "height_in": 58.0,
+  "msrp": "$37,320",
+  "s060": "4.7 (C/D)",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Dodge_Magnum_SRT8.jpg/500px-Dodge_Magnum_SRT8.jpg"
+ },
+ {
+  "make": "Ford",
+  "model": "Country Squire",
+  "years": "1990-1991",
+  "hp": 150,
+  "tq": 270,
+  "weight_lb": 4070,
+  "length_in": 220.0,
+  "height_in": 57.0,
+  "msrp": "$17,921",
+  "s060": "11.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ford_LTD_Country_Squire-1.jpg/500px-Ford_LTD_Country_Squire-1.jpg"
+ },
+ {
+  "make": "Ford",
+  "model": "Taurus Wagon (Gen 1)",
+  "years": "1990-1991",
+  "hp": 140,
+  "tq": 215,
+  "weight_lb": 3315,
+  "length_in": 191.9,
+  "height_in": 55.1,
+  "msrp": "$15,000",
+  "s060": "10.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/%2786-%2788_Ford_Taurus_Wagon.jpg/500px-%2786-%2788_Ford_Taurus_Wagon.jpg"
+ },
+ {
+  "make": "Ford",
+  "model": "Escort Wagon",
+  "years": "1991-1999",
+  "hp": 88,
+  "tq": 108,
+  "weight_lb": 2470,
+  "length_in": 171.3,
+  "height_in": 53.6,
+  "msrp": "$10,899",
+  "s060": "11.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/1994_Ford_Escort_Station_Wagon_%28front%29.jpg/500px-1994_Ford_Escort_Station_Wagon_%28front%29.jpg"
+ },
+ {
+  "make": "Ford",
+  "model": "Taurus Wagon (Gen 2)",
+  "years": "1992-1995",
+  "hp": 140,
+  "tq": 215,
+  "weight_lb": 3355,
+  "length_in": 193.1,
+  "height_in": 55.5,
+  "msrp": "$17,000",
+  "s060": "9.8",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/1994_Ford_Taurus_GL_Wagon_in_Medium_Willow_Green_Clearcoat_Metallic%2C_rear_right%2C_11-21-2021.jpg/500px-1994_Ford_Taurus_GL_Wagon_in_Medium_Willow_Green_Clearcoat_Metallic%2C_rear_right%2C_11-21-2021.jpg"
+ },
+ {
+  "make": "Ford",
+  "model": "Taurus Wagon (Gen 3)",
+  "years": "1996-1999",
+  "hp": 145,
+  "tq": 170,
+  "weight_lb": 3480,
+  "length_in": 199.6,
+  "height_in": 55.9,
+  "msrp": "$20,000",
+  "s060": "9.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Taurus_Wagon_1996-99.jpg/500px-Taurus_Wagon_1996-99.jpg"
+ },
+ {
+  "make": "Ford",
+  "model": "Taurus Wagon (Gen 4)",
+  "years": "2000-2005",
+  "hp": 155,
+  "tq": 185,
+  "weight_lb": 3560,
+  "length_in": 197.7,
+  "height_in": 57.8,
+  "msrp": "$21,500",
+  "s060": "9.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taurus_Wagon_%282000-03%29.jpg/500px-Taurus_Wagon_%282000-03%29.jpg"
+ },
+ {
+  "make": "Ford",
+  "model": "Focus Wagon",
+  "years": "2000-2007",
+  "hp": 130,
+  "tq": 135,
+  "weight_lb": 2717,
+  "length_in": 178.2,
+  "height_in": 58.7,
+  "msrp": "$15,000",
+  "s060": "9.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2002_-_2004_Ford_Focus_Wagon_ZTW_.jpg/500px-2002_-_2004_Ford_Focus_Wagon_ZTW_.jpg"
+ },
+ {
+  "make": "Honda",
+  "model": "Civic Wagon (Wagovan / RT4WD)",
+  "years": "1990-1991",
+  "hp": 105,
+  "tq": 98,
+  "weight_lb": 2467,
+  "length_in": 161.0,
+  "height_in": 58.1,
+  "msrp": "$12,000",
+  "s060": "10.5",
+  "approx": [
+   "hp",
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Honda_Civic_Wagon_1990_%2850356750453%29.jpg/500px-Honda_Civic_Wagon_1990_%2850356750453%29.jpg"
+ },
+ {
+  "make": "Honda",
+  "model": "Accord Wagon (CB9)",
+  "years": "1991-1993",
+  "hp": 140,
+  "tq": 142,
+  "weight_lb": 3130,
+  "length_in": 185.2,
+  "height_in": 55.9,
+  "msrp": "$17,000",
+  "s060": "9.5",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/1991-1993_Honda_Accord_Wagon.jpg/500px-1991-1993_Honda_Accord_Wagon.jpg"
+ },
+ {
+  "make": "Honda",
+  "model": "Accord Wagon (CE)",
+  "years": "1994-1997",
+  "hp": 145,
+  "tq": 147,
+  "weight_lb": 3175,
+  "length_in": 187.6,
+  "height_in": 56.7,
+  "msrp": "$20,000",
+  "s060": "9.0",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/1995_Honda_Accord_Wagon_11.30.17.jpg/500px-1995_Honda_Accord_Wagon_11.30.17.jpg"
+ },
+ {
+  "make": "Hyundai",
+  "model": "Elantra Wagon (J2)",
+  "years": "1996-2000",
+  "hp": 130,
+  "tq": 122,
+  "weight_lb": 2734,
+  "length_in": 175.2,
+  "height_in": 59.1,
+  "msrp": "$13,000",
+  "s060": "10.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/2000_Hyundai_Elantra_GLS_Wagon%2C_rear_left%2C_09-27-2022.jpg/500px-2000_Hyundai_Elantra_GLS_Wagon%2C_rear_left%2C_09-27-2022.jpg"
+ },
+ {
+  "make": "Hyundai",
+  "model": "Elantra Touring",
+  "years": "2009-2012",
+  "hp": 138,
+  "tq": 136,
+  "weight_lb": 3080,
+  "length_in": 176.2,
+  "height_in": 59.8,
+  "msrp": "$18,800",
+  "s060": "9.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Hyundai_Elantra_Touring_%28FD%29_Washington_DC_Metro_Area%2C_USA.jpg/500px-Hyundai_Elantra_Touring_%28FD%29_Washington_DC_Metro_Area%2C_USA.jpg"
+ },
+ {
+  "make": "Jaguar",
+  "model": "X-Type Sportwagon",
+  "years": "2005-2008",
+  "hp": 227,
+  "tq": 206,
+  "weight_lb": 3777,
+  "length_in": 187.2,
+  "height_in": 58.3,
+  "msrp": "$36,995",
+  "s060": "7.7 (MotorWeek)",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Jaguar_X-Type_Sportwagon_%28Front%29.JPG/500px-Jaguar_X-Type_Sportwagon_%28Front%29.JPG"
+ },
+ {
+  "make": "Jaguar",
+  "model": "XF Sportbrake S",
+  "years": "2018-2020",
+  "hp": 380,
+  "tq": 332,
+  "weight_lb": 4045,
+  "length_in": 195.0,
+  "height_in": 57.7,
+  "msrp": "$71,445",
+  "s060": "5.3",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jaguar_XF_Sportbrake%2C_IAA_2017%2C_Frankfurt_%281Y7A3098%29.jpg/500px-Jaguar_XF_Sportbrake%2C_IAA_2017%2C_Frankfurt_%281Y7A3098%29.jpg"
+ },
+ {
+  "make": "Kia",
+  "model": "Rio Cinco",
+  "years": "2002-2005",
+  "hp": 104,
+  "tq": 104,
+  "weight_lb": 2447,
+  "length_in": 166.9,
+  "height_in": 57.9,
+  "msrp": "$11,700",
+  "s060": "10.5",
+  "approx": [
+   "hp",
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kia_Rio_SF_5-Door_SLX_BC_PE_Pewter_Gray_%2811%29.jpg/500px-Kia_Rio_SF_5-Door_SLX_BC_PE_Pewter_Gray_%2811%29.jpg"
+ },
+ {
+  "make": "Lexus",
+  "model": "IS300 SportCross",
+  "years": "2002-2005",
+  "hp": 215,
+  "tq": 218,
+  "weight_lb": 3410,
+  "length_in": 176.6,
+  "height_in": 55.5,
+  "msrp": "$32,305",
+  "s060": "7.1",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2004_Lexus_IS300_SportCross_rear_3.30.18.jpg/500px-2004_Lexus_IS300_SportCross_rear_3.30.18.jpg"
+ },
+ {
+  "make": "Mazda",
+  "model": "Proteg\u00e95",
+  "years": "2002-2003",
+  "hp": 130,
+  "tq": 133,
+  "weight_lb": 2816,
+  "length_in": 170.5,
+  "height_in": 58.5,
+  "msrp": "$16,835",
+  "s060": "9.3",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mazda_Protege5_.jpg/500px-Mazda_Protege5_.jpg"
+ },
+ {
+  "make": "Mazda",
+  "model": "Mazda6 Sport Wagon",
+  "years": "2004-2007",
+  "hp": 220,
+  "tq": 192,
+  "weight_lb": 3540,
+  "length_in": 187.8,
+  "height_in": 57.6,
+  "msrp": "$26,000",
+  "s060": "7.4",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mazda6-wagon.jpg/500px-Mazda6-wagon.jpg"
+ },
+ {
+  "make": "Mercury",
+  "model": "Colony Park",
+  "years": "1990-1991",
+  "hp": 150,
+  "tq": 270,
+  "weight_lb": 4100,
+  "length_in": 218.0,
+  "height_in": 56.8,
+  "msrp": "$18,700",
+  "s060": "11.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Mercury_Grand_Marquis_Colony_Park_1987_%288777540668%29.jpg/500px-Mercury_Grand_Marquis_Colony_Park_1987_%288777540668%29.jpg"
+ },
+ {
+  "make": "Mercury",
+  "model": "Sable Wagon (Gen 1)",
+  "years": "1990-1991",
+  "hp": 140,
+  "tq": 215,
+  "weight_lb": 3350,
+  "length_in": 191.9,
+  "height_in": 55.1,
+  "msrp": "$16,000",
+  "s060": "10.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/1st_Mercury_Sable_wagon_rear.jpg/500px-1st_Mercury_Sable_wagon_rear.jpg"
+ },
+ {
+  "make": "Mercury",
+  "model": "Tracer Wagon",
+  "years": "1991-1999",
+  "hp": 88,
+  "tq": 108,
+  "weight_lb": 2530,
+  "length_in": 171.0,
+  "height_in": 53.5,
+  "msrp": "$11,500",
+  "s060": "11.0",
+  "approx": [
+   "hp",
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/1995_Mercury_Tracer_wagon%2C_rear_left%2C_09-30-2023.jpg/500px-1995_Mercury_Tracer_wagon%2C_rear_left%2C_09-30-2023.jpg"
+ },
+ {
+  "make": "Mercury",
+  "model": "Sable Wagon (Gen 2)",
+  "years": "1992-1995",
+  "hp": 140,
+  "tq": 215,
+  "weight_lb": 3380,
+  "length_in": 192.2,
+  "height_in": 55.5,
+  "msrp": "$17,500",
+  "s060": "9.8",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mercury-Sable-Wagon.jpg/500px-Mercury-Sable-Wagon.jpg"
+ },
+ {
+  "make": "Mercury",
+  "model": "Sable Wagon (Gen 3)",
+  "years": "1996-1999",
+  "hp": 145,
+  "tq": 170,
+  "weight_lb": 3536,
+  "length_in": 199.7,
+  "height_in": 57.6,
+  "msrp": "$20,500",
+  "s060": "9.5",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/c/c3/%2798-%2799_Mercury_Sable_Wagon.JPG"
+ },
+ {
+  "make": "Mercury",
+  "model": "Sable Wagon (Gen 4)",
+  "years": "2000-2005",
+  "hp": 155,
+  "tq": 185,
+  "weight_lb": 3590,
+  "length_in": 197.6,
+  "height_in": 57.9,
+  "msrp": "$21,800",
+  "s060": "9.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/2001_Mercury_Sable_LS_Premium_Wagon%2C_front_right%2C_10-08-2022.jpg/500px-2001_Mercury_Sable_LS_Premium_Wagon%2C_front_right%2C_10-08-2022.jpg"
+ },
+ {
+  "make": "Mitsubishi",
+  "model": "Diamante Wagon",
+  "years": "1993-1996",
+  "hp": 175,
+  "tq": 185,
+  "weight_lb": 3595,
+  "length_in": 190.2,
+  "height_in": 57.9,
+  "msrp": "$26,000",
+  "s060": "9.5",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mitsubishi_Diamante_Wagon_%28Japan%29.jpg/500px-Mitsubishi_Diamante_Wagon_%28Japan%29.jpg"
+ },
+ {
+  "make": "Mitsubishi",
+  "model": "Lancer Sportback",
+  "years": "2004",
+  "hp": 160,
+  "tq": 161,
+  "weight_lb": 3020,
+  "length_in": 181.3,
+  "height_in": 58.1,
+  "msrp": "$17,500",
+  "s060": "8.0 (Ralliart)",
+  "approx": [
+   "w",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/2004_Mitsubishi_Lancer_Sportback_LS%2C_front_right%2C_02-06-2023.jpg/500px-2004_Mitsubishi_Lancer_Sportback_LS%2C_front_right%2C_02-06-2023.jpg"
+ },
+ {
+  "make": "Volvo",
+  "model": "240 Wagon",
+  "years": "1990-1993",
+  "hp": 114,
+  "tq": 136,
+  "weight_lb": 3051,
+  "length_in": 190.7,
+  "height_in": 57.5,
+  "msrp": "$17,215",
+  "s060": "10.1",
+  "approx": [
+   "msrp"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1993_Volvo_240_station_wagon_(20313856116).jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "740 Wagon",
+  "years": "1990-1992",
+  "hp": 114,
+  "tq": 150,
+  "weight_lb": 3239,
+  "length_in": 188.4,
+  "height_in": 56.5,
+  "msrp": "$21,365",
+  "s060": "11.5",
+  "approx": [
+   "msrp",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1990_Volvo_740_2.3_GLE_Estate_(18680993050).jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "940 Wagon",
+  "years": "1991-1995",
+  "hp": 162,
+  "tq": 195,
+  "weight_lb": 3131,
+  "length_in": 189.3,
+  "height_in": 56.5,
+  "msrp": "$27,000",
+  "s060": "9.0",
+  "approx": [
+   "tq",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_940_estate.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "960 Wagon",
+  "years": "1992-1997",
+  "hp": 181,
+  "tq": 197,
+  "weight_lb": 3547,
+  "length_in": 191.4,
+  "height_in": 57.6,
+  "msrp": "$34,655",
+  "s060": "8.9",
+  "approx": [
+   "tq"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_960_wagon.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "850 Wagon",
+  "years": "1993-1997",
+  "hp": 222,
+  "tq": 221,
+  "weight_lb": 3360,
+  "length_in": 185.4,
+  "height_in": 56.9,
+  "msrp": "$31,735",
+  "s060": "7.1",
+  "approx": [
+   "w"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_850_GLE_Estate_1998_(18035254106).jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "850 T-5R / 850R Wagon",
+  "years": "1995-1997",
+  "hp": 243,
+  "tq": 250,
+  "weight_lb": 3406,
+  "length_in": 185.4,
+  "height_in": 56.9,
+  "msrp": "$38,000",
+  "s060": "5.8",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1995_Volvo_850_T5-R_Estate_(8949139210).jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V90 (960-based)",
+  "years": "1997-1998",
+  "hp": 180,
+  "tq": 191,
+  "weight_lb": 3547,
+  "length_in": 191.7,
+  "height_in": 57.6,
+  "msrp": "$36,000",
+  "s060": "9.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1997_Volvo_V90_(12467984223).jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V70 (Gen 1)",
+  "years": "1998-2000",
+  "hp": 190,
+  "tq": 199,
+  "weight_lb": 3768,
+  "length_in": 186.4,
+  "height_in": 58.0,
+  "msrp": "$28,285",
+  "s060": "8.6",
+  "approx": [
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1999_Volvo_V70_(MY00)_2.4_20V_CD_station_wagon_(2015-07-10)_01.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V70 R (Gen 1)",
+  "years": "1998-2000",
+  "hp": 247,
+  "tq": 258,
+  "weight_lb": 3768,
+  "length_in": 186.4,
+  "height_in": 58.0,
+  "msrp": "$38,000",
+  "s060": "6.6",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/VOLVO_V70_MK1.JPG?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V70 XC",
+  "years": "1998-2000",
+  "hp": 190,
+  "tq": 199,
+  "weight_lb": 3768,
+  "length_in": 186.4,
+  "height_in": 60.0,
+  "msrp": "$35,595",
+  "s060": "9.0",
+  "approx": [
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1998_Volvo_V70_XC_AWD_(25878187636).jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V70 (Gen 2)",
+  "years": "2001-2007",
+  "hp": 168,
+  "tq": 170,
+  "weight_lb": 3390,
+  "length_in": 186.7,
+  "height_in": 57.3,
+  "msrp": "$29,450",
+  "s060": "9.5",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2001_Volvo_V70_(MY01)_T5_station_wagon_(2015-07-24)_01.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "XC70 (Gen 2)",
+  "years": "2001-2007",
+  "hp": 247,
+  "tq": 243,
+  "weight_lb": 3779,
+  "length_in": 186.7,
+  "height_in": 60.0,
+  "msrp": "$34,950",
+  "s060": "7.5",
+  "approx": [
+   "tq",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_XC70_2001.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V70 R (Gen 2)",
+  "years": "2004-2007",
+  "hp": 300,
+  "tq": 295,
+  "weight_lb": 3800,
+  "length_in": 186.7,
+  "height_in": 57.3,
+  "msrp": "$40,060",
+  "s060": "5.9",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2003_Volvo_V70_R_(6454242385).jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V50",
+  "years": "2005-2011",
+  "hp": 218,
+  "tq": 236,
+  "weight_lb": 3399,
+  "length_in": 177.7,
+  "height_in": 57.0,
+  "msrp": "$28,910",
+  "s060": "7.0",
+  "approx": [
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_V50.JPG?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V70 (Gen 3)",
+  "years": "2008-2010",
+  "hp": 235,
+  "tq": 236,
+  "weight_lb": 3900,
+  "length_in": 190.3,
+  "height_in": 59.4,
+  "msrp": "$33,210",
+  "s060": "7.8",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_V70_III_20090905_front.JPG?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "XC70 (Gen 3)",
+  "years": "2008-2016",
+  "hp": 238,
+  "tq": 236,
+  "weight_lb": 4200,
+  "length_in": 190.3,
+  "height_in": 61.0,
+  "msrp": "$36,775",
+  "s060": "8.5",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2007-2011_Volvo_XC70_(BZ)_D5_station_wagon_(2011-03-23).jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V60 (Gen 1)",
+  "years": "2015-2018",
+  "hp": 240,
+  "tq": 258,
+  "weight_lb": 3527,
+  "length_in": 182.5,
+  "height_in": 56.9,
+  "msrp": "$35,950",
+  "s060": "6.4",
+  "approx": [
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_V60_T6_AWD_wagon_-_Flickr_-_Highway_Patrol_Images.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V60 Polestar (Gen 1)",
+  "years": "2015-2018",
+  "hp": 350,
+  "tq": 369,
+  "weight_lb": 3800,
+  "length_in": 182.5,
+  "height_in": 56.9,
+  "msrp": "$61,300",
+  "s060": "4.8",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2016_Volvo_V60_Polestar_AWD_Automatic_Estate_2.0_Front.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V60 Cross Country (Gen 1)",
+  "years": "2015-2018",
+  "hp": 250,
+  "tq": 266,
+  "weight_lb": 3800,
+  "length_in": 182.5,
+  "height_in": 59.0,
+  "msrp": "$41,000",
+  "s060": "7.5",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_V60_Cross_Country_fr.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V90",
+  "years": "2017-2021",
+  "hp": 316,
+  "tq": 295,
+  "weight_lb": 4000,
+  "length_in": 194.3,
+  "height_in": 57.5,
+  "msrp": "$50,000",
+  "s060": "5.7",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_V90_T6_R-Design.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V90 Cross Country",
+  "years": "2017-present",
+  "hp": 316,
+  "tq": 295,
+  "weight_lb": 4330,
+  "length_in": 194.9,
+  "height_in": 60.9,
+  "msrp": "$56,295",
+  "s060": "5.7",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2017_Volvo_V90_Cross_Country_T6_AWD_in_Osmium_Grey,_rear_right.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V60 (Gen 2)",
+  "years": "2019-present",
+  "hp": 250,
+  "tq": 258,
+  "weight_lb": 4200,
+  "length_in": 186.0,
+  "height_in": 56.5,
+  "msrp": "$38,900",
+  "s060": "6.4",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Volvo_V60_R-Design_in_Bursting_Blue_Metallic,_front_right,_2024-10-03.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V60 Cross Country (Gen 2)",
+  "years": "2019-present",
+  "hp": 250,
+  "tq": 258,
+  "weight_lb": 3800,
+  "length_in": 186.0,
+  "height_in": 59.0,
+  "msrp": "$45,745",
+  "s060": "7.3",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060",
+   "msrp"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_V60_Cross_Country_(SPA)_IMG_5873.jpg?width=500"
+ },
+ {
+  "make": "Volvo",
+  "model": "V60 Polestar Engineered (Gen 2)",
+  "years": "2020-2024",
+  "hp": 415,
+  "tq": 494,
+  "weight_lb": 4300,
+  "length_in": 186.0,
+  "height_in": 56.5,
+  "msrp": "$68,940",
+  "s060": "4.4",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo_V60_Polestar_Engineered_(SPA)_DSC_0746.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Legacy Wagon (Gen 1)",
+  "years": "1990-1994",
+  "hp": 130,
+  "tq": 137,
+  "weight_lb": 2954,
+  "length_in": 181.1,
+  "height_in": 55.9,
+  "msrp": "$12,049",
+  "s060": "10.5",
+  "approx": [
+   "w",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/'90-'92_Subaru_Legacy_Wagon.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Impreza Wagon (Gen 1)",
+  "years": "1993-2001",
+  "hp": 110,
+  "tq": 110,
+  "weight_lb": 2800,
+  "length_in": 172.2,
+  "height_in": 55.7,
+  "msrp": "$13,399",
+  "s060": "10.5",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Subaru_Impreza_1.6i_LX_1993_(14880890359).jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Legacy Wagon (Gen 2)",
+  "years": "1995-1999",
+  "hp": 135,
+  "tq": 140,
+  "weight_lb": 3100,
+  "length_in": 183.9,
+  "height_in": 57.1,
+  "msrp": "$15,999",
+  "s060": "10.0",
+  "approx": [
+   "w",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/'95-'96_Subaru_Legacy_Wagon.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Outback (Gen 1)",
+  "years": "1995-1999",
+  "hp": 135,
+  "tq": 140,
+  "weight_lb": 3200,
+  "length_in": 183.9,
+  "height_in": 57.1,
+  "msrp": "$19,820",
+  "s060": "10.5",
+  "approx": [
+   "w",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1995_Subaru_Outback.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Legacy GT-B (BG/BH)",
+  "years": "1996-2003",
+  "hp": 276,
+  "tq": 235,
+  "weight_lb": 3400,
+  "length_in": 181.7,
+  "height_in": 56.3,
+  "msrp": "n/a US",
+  "s060": "6.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Subaru_LEGACY_Touringwagon_GT_(BG)_rear.JPG?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Forester (Gen 1, SF)",
+  "years": "1998-2002",
+  "hp": 165,
+  "tq": 162,
+  "weight_lb": 3147,
+  "length_in": 175.2,
+  "height_in": 64.6,
+  "msrp": "$22,195",
+  "s060": "10.0",
+  "approx": [
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1998-2000_Subaru_Forester.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Legacy Wagon (Gen 3)",
+  "years": "2000-2004",
+  "hp": 165,
+  "tq": 166,
+  "weight_lb": 3333,
+  "length_in": 183.1,
+  "height_in": 57.9,
+  "msrp": "$18,395",
+  "s060": "9.5",
+  "approx": [
+   "tq",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/'00-'02_Subaru_Legacy_Wagon_(Hudson).JPG?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Outback (Gen 2)",
+  "years": "2000-2004",
+  "hp": 165,
+  "tq": 166,
+  "weight_lb": 3550,
+  "length_in": 183.1,
+  "height_in": 59.1,
+  "msrp": "$23,190",
+  "s060": "9.5",
+  "approx": [
+   "tq",
+   "w",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2000-2004_Subaru_Outback_Wagon.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Impreza / WRX Wagon (Gen 2)",
+  "years": "2002-2007",
+  "hp": 227,
+  "tq": 217,
+  "weight_lb": 3165,
+  "length_in": 174.0,
+  "height_in": 57.1,
+  "msrp": "$23,495",
+  "s060": "5.9",
+  "approx": [
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/'02_Subaru_Impreza_WRX_Wagon.JPG?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Forester (Gen 2, SG)",
+  "years": "2003-2008",
+  "hp": 165,
+  "tq": 166,
+  "weight_lb": 3208,
+  "length_in": 175.0,
+  "height_in": 64.8,
+  "msrp": "$21,870",
+  "s060": "9.7",
+  "approx": [
+   "tq",
+   "w",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2003-2005_Subaru_Forester_XS.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Legacy Wagon (Gen 4)",
+  "years": "2005-2007",
+  "hp": 175,
+  "tq": 169,
+  "weight_lb": 3435,
+  "length_in": 188.7,
+  "height_in": 57.9,
+  "msrp": "$22,445",
+  "s060": "9.0",
+  "approx": [
+   "tq",
+   "w",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2005-2009_Subaru_Legacy_Touring_Wagon_Blitzen_1.png?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Outback (Gen 3)",
+  "years": "2005-2009",
+  "hp": 168,
+  "tq": 166,
+  "weight_lb": 3500,
+  "length_in": 187.0,
+  "height_in": 60.7,
+  "msrp": "$22,590",
+  "s060": "9.5",
+  "approx": [
+   "tq",
+   "w",
+   "ht",
+   "s060",
+   "msrp"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2006-2009_Subaru_Outback_2.5i_station_wagon_(2011-11-17)_01.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Forester (Gen 3, SH)",
+  "years": "2009-2013",
+  "hp": 170,
+  "tq": 170,
+  "weight_lb": 3275,
+  "length_in": 179.5,
+  "height_in": 66.7,
+  "msrp": "$20,690",
+  "s060": "9.5",
+  "approx": [
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2010_Subaru_Forester_(MY10)_2.0D_wagon_(2010-10-16).jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Outback (Gen 4)",
+  "years": "2010-2014",
+  "hp": 170,
+  "tq": 170,
+  "weight_lb": 3386,
+  "length_in": 188.2,
+  "height_in": 66.4,
+  "msrp": "$22,995",
+  "s060": "9.5",
+  "approx": [
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/SubaruOutbackBR25iPerthRear.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Forester (Gen 4, SJ)",
+  "years": "2014-2018",
+  "hp": 170,
+  "tq": 174,
+  "weight_lb": 3399,
+  "length_in": 179.9,
+  "height_in": 67.7,
+  "msrp": "$22,820",
+  "s060": "9.5",
+  "approx": [
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Subaru_Forester_(SJ)_2.0XT_2014.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Outback (Gen 5)",
+  "years": "2015-2019",
+  "hp": 175,
+  "tq": 174,
+  "weight_lb": 3625,
+  "length_in": 189.6,
+  "height_in": 66.1,
+  "msrp": "$25,745",
+  "s060": "9.5",
+  "approx": [
+   "w",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2015-2017_Subaru_Outback_(BS9)_2.5i-S_wagon_(2017-11-29)_01.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Forester (Gen 5, SK)",
+  "years": "2019-2024",
+  "hp": 182,
+  "tq": 176,
+  "weight_lb": 3449,
+  "length_in": 182.1,
+  "height_in": 68.1,
+  "msrp": "$24,295",
+  "s060": "9.0",
+  "approx": [
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2018_Subaru_Forester_(SK_MY19)_2.5i_AWD_wagon_(2018-10-08)_01.jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Outback (Gen 6)",
+  "years": "2020-2025",
+  "hp": 182,
+  "tq": 176,
+  "weight_lb": 3634,
+  "length_in": 191.3,
+  "height_in": 66.1,
+  "msrp": "$26,645",
+  "s060": "9.0",
+  "approx": [
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Subaru_Outback_(sixth_generation,_BT).jpg?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Forester (Gen 6, SL)",
+  "years": "2025-present",
+  "hp": 180,
+  "tq": 178,
+  "weight_lb": 3569,
+  "length_in": 182.7,
+  "height_in": 67.5,
+  "msrp": "$31,995",
+  "s060": "9.5",
+  "approx": [
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2025_Subaru_Forester_Sport_(United_States)_rear_view.png?width=500"
+ },
+ {
+  "make": "Subaru",
+  "model": "Outback (Gen 7)",
+  "years": "2026-present",
+  "hp": 180,
+  "tq": 178,
+  "weight_lb": 3800,
+  "length_in": 192.9,
+  "height_in": 68.0,
+  "msrp": "$34,995",
+  "s060": "6.5",
+  "approx": [
+   "w",
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2026_Subaru_Outback_Front_Right_Quater_NYC_2025.png?width=500"
+ },
+ {
+  "make": "Toyota",
+  "model": "Camry Wagon (V20)",
+  "years": "1990-1991",
+  "hp": 156,
+  "tq": 159,
+  "weight_lb": 3175,
+  "length_in": 183.1,
+  "height_in": 54.5,
+  "msrp": "$13,768",
+  "s060": "10.0",
+  "approx": [
+   "tq",
+   "w",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/88-92_Toyota_Corolla_wagon.jpg?width=500"
+ },
+ {
+  "make": "Toyota",
+  "model": "Corolla Wagon (E90)",
+  "years": "1990-1992",
+  "hp": 102,
+  "tq": 101,
+  "weight_lb": 2400,
+  "length_in": 172.0,
+  "height_in": 55.7,
+  "msrp": "$11,838",
+  "s060": "11.5",
+  "approx": [
+   "w",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/88-92_Toyota_Corolla_wagon.jpg?width=500"
+ },
+ {
+  "make": "Toyota",
+  "model": "Camry Wagon (XV10)",
+  "years": "1992-1996",
+  "hp": 188,
+  "tq": 203,
+  "weight_lb": 3400,
+  "length_in": 188.8,
+  "height_in": 57.5,
+  "msrp": "$17,193",
+  "s060": "9.0",
+  "approx": [
+   "tq",
+   "w",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/'92-'94_Toyota_Camry_Wagon.JPG?width=500"
+ },
+ {
+  "make": "Toyota",
+  "model": "Corolla Wagon (E100)",
+  "years": "1993-1996",
+  "hp": 115,
+  "tq": 122,
+  "weight_lb": 2500,
+  "length_in": 168.1,
+  "height_in": 54.3,
+  "msrp": "$12,978",
+  "s060": "10.5",
+  "approx": [
+   "tq",
+   "w",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Corolla_100_Wagon_002.JPG?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Fox Wagon",
+  "years": "1990-1993",
+  "hp": 81,
+  "tq": 100,
+  "weight_lb": 2170,
+  "length_in": 174.4,
+  "height_in": 54.0,
+  "msrp": "$8,550",
+  "s060": "12.0",
+  "approx": [
+   "tq",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1987-1990_Volkswagen_Fox_Wagon_in_Blue.jpg?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Passat Wagon (B3)",
+  "years": "1990-1993",
+  "hp": 113,
+  "tq": 120,
+  "weight_lb": 2840,
+  "length_in": 178.0,
+  "height_in": 56.0,
+  "msrp": "$18,000",
+  "s060": "11.3",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volkswagen_Passat_B3_Variant.jpg?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Passat Wagon (B4)",
+  "years": "1995-1997",
+  "hp": 172,
+  "tq": 173,
+  "weight_lb": 3505,
+  "length_in": 178.0,
+  "height_in": 56.0,
+  "msrp": "$24,000",
+  "s060": "9.2",
+  "approx": [
+   "len",
+   "ht",
+   "msrp"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volkswagen_Passat_B4_Variant_in_Aardenburg_1.jpg?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Passat Wagon (B5/B5.5)",
+  "years": "1998-2005",
+  "hp": 150,
+  "tq": 155,
+  "weight_lb": 3300,
+  "length_in": 184.5,
+  "height_in": 57.7,
+  "msrp": "$21,000",
+  "s060": "8.5",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "msrp",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/VW_Passat_B5_Variant_(1996-2000)_front_MJ.JPG?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Passat W8 Wagon (B5.5)",
+  "years": "2002-2004",
+  "hp": 270,
+  "tq": 273,
+  "weight_lb": 3800,
+  "length_in": 184.3,
+  "height_in": 58.9,
+  "msrp": "$38,700",
+  "s060": "7.0",
+  "approx": [
+   "w",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volkswagen_Passat_W8-front.JPG?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Passat Wagon (B6)",
+  "years": "2007-2010",
+  "hp": 200,
+  "tq": 207,
+  "weight_lb": 3450,
+  "length_in": 187.0,
+  "height_in": 59.0,
+  "msrp": "$25,225",
+  "s060": "7.5",
+  "approx": [
+   "tq",
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/VW_Passat_B6_Variant_Trendline.JPG?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Jetta SportWagen",
+  "years": "2009-2014",
+  "hp": 140,
+  "tq": 236,
+  "weight_lb": 3285,
+  "length_in": 179.3,
+  "height_in": 58.3,
+  "msrp": "$24,570",
+  "s060": "8.9",
+  "approx": [
+   "len",
+   "ht"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2009_Volkswagen_Jetta_Sportwagon_front.jpg?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Golf SportWagen (Mk7)",
+  "years": "2015-2019",
+  "hp": 170,
+  "tq": 184,
+  "weight_lb": 3063,
+  "length_in": 179.6,
+  "height_in": 58.3,
+  "msrp": "$21,395",
+  "s060": "7.5",
+  "approx": [
+   "tq",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volkswagen_Golf_Mk7.5_R_Wagon_Variant_Estate.jpg?width=500"
+ },
+ {
+  "make": "Volkswagen",
+  "model": "Golf Alltrack",
+  "years": "2017-2019",
+  "hp": 170,
+  "tq": 199,
+  "weight_lb": 3300,
+  "length_in": 179.6,
+  "height_in": 59.4,
+  "msrp": "$27,030",
+  "s060": "8.0",
+  "approx": [
+   "w",
+   "len",
+   "ht",
+   "s060"
+  ],
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2018_Volkswagen_Golf_Alltrack_4Motion_in_Great_Falls_Green_Met.,_front_right.jpg?width=500"
+ }
+]

@@ -1,0 +1,24 @@
+{
+  "_note": "Hearst sites (Autoblog, Car and Driver, Road & Track) return HTTP 403 from GitHub Actions runner IPs. They work from Scott's machine but NOT from the cloud, so they are disabled here. The website's scripts/update_news.py runs locally and can keep using them.",
+  "handle": "all.the.wagons",
+  "site": "https://allthewagons.com",
+  "feeds": [
+    {"id": "jalopnik",    "name": "Jalopnik",       "url": "https://www.jalopnik.com/feed", "enabled": true},
+    {"id": "thedrive",    "name": "The Drive",      "url": "https://www.thedrive.com/feed", "enabled": true},
+    {"id": "hagerty",     "name": "Hagerty",        "url": "https://www.hagerty.com/media/feed/", "enabled": true},
+    {"id": "motorsport",  "name": "Motorsport",     "url": "https://www.motorsport.com/rss/all/news/", "enabled": true},
+    {"id": "bmwblog",     "name": "BMWBLOG",        "url": "https://www.bmwblog.com/feed/", "enabled": true},
+
+    {"id": "autoblog",    "name": "Autoblog",       "url": "https://www.autoblog.com/rss.xml", "enabled": false, "why_disabled": "403 from GitHub runner IPs"},
+    {"id": "caranddriver","name": "Car and Driver", "url": "https://www.caranddriver.com/rss/all.xml/", "enabled": false, "why_disabled": "403 from GitHub runner IPs"},
+    {"id": "roadandtrack","name": "Road & Track",   "url": "https://www.roadandtrack.com/rss/all.xml/", "enabled": false, "why_disabled": "403 from GitHub runner IPs"},
+
+    {"id": "dougdemuro",  "name": "Doug DeMuro",    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsqjHFMB_JYTaEnf_vmTNqg", "enabled": true},
+    {"id": "throttlehouse","name": "Throttle House","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyXiDU5qjfOPxgOPeFWGwKw", "enabled": true},
+    {"id": "carfection",  "name": "Carfection",     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwuDqQjo53xnxWKRVfw_41w", "enabled": true},
+    {"id": "harrysgarage","name": "Harry's Garage", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIB5XXHNAWWzTOw6guIMYCg", "enabled": true},
+    {"id": "cammisa",     "name": "Jason Cammisa",  "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5ycxRlaGXSjt3CxZ3Q59zw", "enabled": true},
+    {"id": "chrisharris", "name": "Chris Harris",   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8AMAhCRmep7VJKe1sxvHFg", "enabled": true},
+    {"id": "hagertytv",   "name": "Hagerty TV",     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLgEVx4mzk3T3mzgbKG54Eg", "enabled": true}
+  ]
+}
