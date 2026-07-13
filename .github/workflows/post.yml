@@ -63,7 +63,11 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main
-        run: python publish_meta.py --dir "${{ steps.gen.outputs.run_dir }}" | tee pub.log
+        # pipefail: without it `| tee` masks the script's exit code and a
+        # publish failure goes green - exactly how run #1 hid the FB error.
+        run: |
+          set -o pipefail
+          python publish_meta.py --dir "${{ steps.gen.outputs.run_dir }}" | tee pub.log
 
       - name: Prove something actually published
         # A green run that did nothing is the exact failure that burned us on
