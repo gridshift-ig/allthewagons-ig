@@ -41,7 +41,9 @@ IMAGE_BASE_URL = os.environ.get("IMAGE_BASE_URL", "").rstrip("/")
 
 
 def _call(path: str, params: dict, post: bool = False) -> dict:
-    params = {**params, "access_token": TOKEN}
+    # Default to the system-user token, but let a caller pass its own
+    # access_token (the Page photo endpoint needs the PAGE token).
+    params = {"access_token": TOKEN, **params}
     url = f"{GRAPH}/{path}"
     try:
         if post:
@@ -84,9 +86,22 @@ def publish_instagram(image_url: str, caption: str) -> str:
     return _call(f"{IG_USER_ID}/media_publish", {"creation_id": cid}, post=True)["id"]
 
 
+_PAGE_TOKEN: dict = {}
+
+
+def _page_token() -> str:
+    """Posting to a Page requires the Page's own access token, not the
+    system-user token. Meta's error if you get this wrong is the misleading
+    '(#200) publish_actions ... deprecated' - learned on run #1."""
+    if "t" not in _PAGE_TOKEN:
+        _PAGE_TOKEN["t"] = _call(FB_PAGE_ID, {"fields": "access_token"})["access_token"]
+    return _PAGE_TOKEN["t"]
+
+
 def publish_facebook(image_url: str, caption: str) -> str:
     r = _call(f"{FB_PAGE_ID}/photos",
-              {"url": image_url, "caption": caption, "published": "true"}, post=True)
+              {"url": image_url, "caption": caption, "published": "true",
+               "access_token": _page_token()}, post=True)
     return r.get("post_id") or r["id"]
 
 
@@ -121,7 +136,12 @@ def main() -> int:
             print("published ig_media_id=" + publish_instagram(image_url, item["caption"]))
             published += 1
         if not a.ig_only:
-            print("published fb_post_id=" + publish_facebook(image_url, item["caption"]))
+            try:
+                print("published fb_post_id=" + publish_facebook(image_url, item["caption"]))
+            except SystemExit as e:
+                # Never let a Facebook hiccup kill the Instagram half of the
+                # batch - but shout, so the log is never quietly green.
+                print(f"::warning::facebook publish FAILED: {e}")
         time.sleep(5)
 
     if published == 0 and not a.fb_only:
