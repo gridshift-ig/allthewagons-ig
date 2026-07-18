@@ -1,0 +1,59 @@
+name: Evergreen social queue
+
+# One evergreen card per week (Wed 14:00 UTC = ~10am US Eastern),
+# plus a manual "Run workflow" button.
+on:
+  schedule:
+    - cron: "0 14 * * 3"
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "queue id to post (blank = next unposted)"
+        default: ""
+      ig:
+        description: "also post to Instagram"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write        # needed to commit the updated queue state
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Publish next evergreen card
+        id: pub
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main
+        run: |
+          set -o pipefail
+          python publish_queue.py \
+            ${{ github.event.inputs.id && format('--id {0}', github.event.inputs.id) || '' }} \
+            ${{ github.event.inputs.ig == 'true' && '--ig' || '' }} | tee pub.log
+
+      - name: Prove something actually published
+        # A green run that posted nothing is the failure mode that burned us
+        # before. Never trust the tick - grep for a real post id.
+        run: |
+          grep -q "published fb_post_id=" pub.log || {
+            echo "::error::publish step printed no fb_post_id - nothing was posted"
+            exit 1
+          }
+          echo "verified: a real Facebook post id was returned"
+
+      - name: Commit updated queue state
+        run: |
+          git config user.name  "allthewagons-bot"
+          git config user.email "bot@allthewagons.com"
+          git add social-queue.json
+          git commit -m "social queue: posted an evergreen card" || exit 0
+          git push
