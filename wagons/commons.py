@@ -24,11 +24,23 @@ ALLOWED_PREFIXES = ("cc0", "cc-by", "cc by", "public domain", "pd-", "pd ")
 
 
 def file_from_url(url: str) -> str:
-    """upload.wikimedia.org/.../thumb/a/ab/Foo.jpg/500px-Foo.jpg -> File:Foo.jpg"""
+    """Two Commons URL shapes are in wagons.json - handle both:
+      upload.wikimedia.org/.../thumb/a/ab/Foo.jpg/500px-Foo.jpg
+      commons.wikimedia.org/wiki/Special:FilePath/Foo.jpg?width=500
+    -> File:Foo.jpg
+
+    Before this fix, Special:FilePath URLs fell through and returned "",
+    which made licence() return None and every evergreen card for that model
+    silently degrade to a text-only card ("licence unverifiable"). 57 of 139
+    wagons.json entries (Volvo, Subaru, Toyota, VW) use this URL shape.
+    """
     m = re.search(r"/commons/(?:thumb/)?[0-9a-f]/[0-9a-f]{2}/([^/]+)", url)
-    if not m:
-        return ""
-    return "File:" + urllib.parse.unquote(m.group(1))
+    if m:
+        return "File:" + urllib.parse.unquote(m.group(1))
+    m = re.search(r"Special:FilePath/([^?]+)", url)
+    if m:
+        return "File:" + urllib.parse.unquote(m.group(1))
+    return ""
 
 
 def _api(params: dict) -> dict:
