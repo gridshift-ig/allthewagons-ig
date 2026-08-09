@@ -27,11 +27,18 @@ from wagons.commons import licence
 ROOT = Path(__file__).resolve().parent
 THEME = "dark"
 UA = "Mozilla/5.0 (AllTheWagonsBot/1.0; +https://allthewagons.com)"
+SKIPPED_PATH = ROOT / "skipped.json"
 
 
 def big_commons(url: str) -> str:
     """Commons stores a 500px thumb in the database. Ask for 1280px instead -
-    500px upscaled to a 1080 card looks soft."""
+    500px upscaled to a 1080 card looks soft.
+
+    Two URL shapes appear in wagons.json: the .../thumb/.../500px-Foo.jpg path
+    form, and the Special:FilePath/Foo.jpg?width=500 query-param form. Handle
+    both so the width bump actually applies to Special:FilePath entries too."""
+    if "Special:FilePath" in url:
+        return re.sub(r"([?&])width=\d+", r"\g<1>width=1280", url)
     return re.sub(r"/\d+px-", "/1280px-", url)
 
 
@@ -58,7 +65,7 @@ def download(url: str, dest: Path) -> Path | None:
             shutil.copyfileobj(r, f)
         return dest if dest.stat().st_size > 5000 else None
     except Exception as e:  # noqa: BLE001 - no photo is survivable; a crash is not
-        print(f"  photo download failed ({type(e).__name__}) - falling back to text card")
+        print(f"  photo download failed ({type(e).__name__})")
         return None
 
 
@@ -84,6 +91,7 @@ def main() -> int:
     tmp.mkdir(exist_ok=True)
 
     batch = []
+    skipped: list[dict] = []
     for i, p in enumerate(picked, 1):
         jpg, txt = out / f"post_{i}.jpg", out / f"post_{i}.txt"
 
@@ -100,9 +108,19 @@ def main() -> int:
                 render_news_card(p, jpg, THEME)
         else:
             # Evergreen photos are Wikimedia Commons - check the licence, print
-            # the credit ON the card. An unverifiable licence => text-only card.
+            # the credit ON the card. --no-photos is the deliberate text-only
+            # kill switch and is never a skip. But when a photo IS expected and
+            # can't be verified, DO NOT silently fall back to a text-only card -
+            # that's exactly how 57 "Wagon of the Day" models (every Special:
+            # FilePath entry in wagons.json) quietly posted broken cards for
+            # weeks with nobody noticing. Skip the post instead and raise it.
             p["specs"] = spec_row(p)
-            if not a.no_photos and p.get("img"):
+            skip_reason = None
+            if a.no_photos:
+                pass  # intentional text-only mode, not a failure
+            elif not p.get("img"):
+                skip_reason = "no image URL in wagons.json"
+            else:
                 lic = licence(p["img"])
                 if lic and lic["ok"]:
                     got = download(big_commons(p["img"]), tmp / f"e{i}.jpg")
@@ -111,13 +129,24 @@ def main() -> int:
                     if got:
                         p["bg_image"] = str(got)
                         p["credit"] = lic["credit"]
+                    else:
+                        skip_reason = "licensed photo failed to download"
                 elif lic:
-                    print(f"  licence not usable ({lic['licence']}) - text card")
+                    skip_reason = f"licence not usable ({lic['licence']})"
                 else:
-                    print("  licence unverifiable - text card")
+                    skip_reason = "licence unverifiable (Commons lookup failed)"
+
+            if skip_reason:
+                print(f"[{i}] SKIP  {p['make']} {p['model']}: {skip_reason}")
+                print(f"::error::Wagon of the Day skipped - {p['make']} {p['model']} "
+                      f"({p.get('years', '')}): {skip_reason}")
+                skipped.append({"make": p["make"], "model": p["model"],
+                                 "years": p.get("years", ""), "reason": skip_reason})
+                continue
+
             cap = evergreen_caption(p)
-            print(f"[{i}] WAGON {p['make']} {p['model']}"
-                  f"{' + photo' if p.get('bg_image') else ' (text)'}")
+            tag = " + photo" if p.get("bg_image") else " (text, --no-photos)"
+            print(f"[{i}] WAGON {p['make']} {p['model']}{tag}")
             if not a.dry_run:
                 render_evergreen_card(p, jpg, THEME)
 
@@ -131,8 +160,20 @@ def main() -> int:
         return 0
 
     shutil.rmtree(tmp, ignore_errors=True)
-    (out / "batch.json").write_text(json.dumps(batch, indent=1), encoding="utf-8")
+
+    if skipped:
+        SKIPPED_PATH.write_text(json.dumps(skipped, indent=1), encoding="utf-8")
+        print(f"\n::warning::{len(skipped)} pick(s) skipped this run - see skipped.json")
+
+    # Every pick (skipped or not) is remembered so a still-broken entry (bad
+    # licence, dead link) doesn't get re-selected and re-alerted every run.
     select.remember(picked)
+
+    if not batch:
+        print(f"\nNOTHING TO POST - all {len(picked)} pick(s) skipped (no verified photo)")
+        return 1
+
+    (out / "batch.json").write_text(json.dumps(batch, indent=1), encoding="utf-8")
     print(f"\nwrote {len(batch)} posts -> {out}")
     print(f"::set-run-dir::posts/{run}")
     return 0
